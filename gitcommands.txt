@@ -1,0 +1,8 @@
+**Commands in git github.
+$ git clone-- it is used to target an existing repository and create,clone or copy of the target repository.
+$ git init-- for intializing emoty Git respository.
+$ git status-- to check if things have arrived or if anything has been moved to a different vault.
+$ git commit--stores the current contents of the index in a new commit along with a log message from the user describing the changes.
+$ git add it--it adds a change in the working directory to the stagging area.It tells Git if we want to include updates to a particylar file in the next commit.
+$ git push--this command is used to upload local repository content to a remote repository.
+$ git config--You can change the name that is associated with your Git commits using this command.
