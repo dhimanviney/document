@@ -1,12 +1,12 @@
 ##Functions##
 ##Ques.1 
 import math
-def Area_of_sphere(radius):
+def sphere(radius):
     sa =  4 * math.pi * radius * radius
     print(" The Surface area of a Sphere = %.2f" %sa)
     
 radius=float(input("Enter the radius="))
-Area_of_sphere(radius)
+sphere(radius)
 ##Ques.2
 def perfect(num):
     s=0
@@ -15,7 +15,7 @@ def perfect(num):
             s=s+i
     if(s==num):
             print(num)
-a=100
+a=1000
 for j in range(1,a):
     perfect(j)
 
